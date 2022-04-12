@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="";
+            }     class="logo">
+                <ul>
+
+                    <li><a href="https://www.jimdo.com/examples/">Products</a></li>
+                    <li><a href="https://www.jimdo.com/blog/inspiration/">Inspiration</a></li>
+                    <li><a href="https://www.jimdo.com/pricing/website/">Pricing</a></li>
+                    <li><a href="https://www.jimdo.com/blog/">Blog</a></li>
+                    <li><a href="https://www.jimdo.com/premium/website/">Features</a></li>
+                    <li><a href="https://account.e.jimdo.com/en/login">Log in</a></li>
+
+
+
+
+                </ul>
+            </div>
+        <div class="content">
+            
+        </div>
+            <div class="left-col">
+                <h1>THE<br>REAL<br>SOUND</h1>
+            </div>
+            <div class="right-col">
+                <p>Click Here To Listen</p>
+                <img src="image.jpg" id="icon">
+            </div>
+            
+                
+            </div>    
+           
+        </div>
+        
+        <audio id="mySong" controls>
+            <source controls src="file:///home/admin123/Downloads/mixkit-deep-urban-623.mp3"> 
+        </audio>
+<audio src="file:///home/admin123/Downloads/mixkit-deep-urban-623.mp3"></audio>
+    </body>    
+    
+    <script>
+    var mySong=document.getElementById("mySong");
+    var icon=document.getElementById("icon");
+
+    icon.onclick=function(){
+        if(mySong.paused){
+            mySong.play();
+            icon.src="pause.jpeg";
+        }
+        else{
+            mySong.pause();
+            icon.src="image.jpg";
+        }    
+        }
+
+    
+</script>
+</html>
